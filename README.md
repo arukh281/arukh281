@@ -20,7 +20,7 @@ ML engineer for multichannel audio. I build acoustic detection systems on microp
 | --- | --- | --- |
 | [SwiftShare](https://github.com/arukh281/SwiftShare) | Anonymous, encrypted file sharing; the basis of my ICDSA paper | FastAPI, AES-GCM, AWS S3 |
 | [KALI](https://github.com/arukh281/stock) | NSE paper-trading sandbox: 4 algorithm ledgers, HMM regime features, Kelly sizing | Python |
-| [Review Insights](https://github.com/arukh281/Major-Project) | LLM review analytics with Google Business Profile sync | Next.js, PostgreSQL, Prisma |
+| [Review Insights](https://github.com/arukh281/review-insights) | LLM review analytics with Google Business Profile sync | Next.js, PostgreSQL, Prisma |
 | [sensor-anomaly](https://github.com/arukh281/sensor-anomaly) | Real-time anomaly detection on NASA turbofan sensor data | scikit-learn, FastAPI |
 
 ## Tools
