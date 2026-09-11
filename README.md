@@ -7,7 +7,7 @@ ML engineer for multichannel audio. I build acoustic detection systems on microp
 ## What I'm working on
 
 - **Audio ML at SSS Defence:** acoustic drone detection on a multi-microphone array. The work spans synthetic data generation, sim-to-real transfer, CUDA signal processing and deployment on NVIDIA Jetson. The code is private.
-- **The Algorithm Lab:** a multi-agent LLM platform on the Claude API, with 13 agents and a website-audit agent, built on FastAPI and React. The code is private.
+- **The Algorithm Lab:** a multi-agent LLM platform that uses several models through OpenRouter, with 13 agents and a website-audit agent, built on FastAPI and React. The code is private.
 
 ## Publications
 
