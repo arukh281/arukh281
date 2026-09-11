@@ -6,8 +6,9 @@ ML engineer for multichannel audio. I build acoustic detection systems on microp
 
 ## What I'm working on
 
+- **[Earmark](https://github.com/arukh281/EarMark), built in public:** personal voice isolation and barge-in gating for voice agents, running in the browser. After a 5-second enrolment, a causal model keeps only your voice and tells the agent when you, and only you, are speaking. PyTorch for the model and a C++17 engine for WebAssembly. Work in progress: no results until they come from real runs.
 - **Audio ML at SSS Defence:** acoustic drone detection on a multi-microphone array. The work spans synthetic data generation, sim-to-real transfer, CUDA signal processing and deployment on NVIDIA Jetson. The code is private.
-- **The Algorithm Lab:** a multi-agent LLM platform that uses several models through OpenRouter, with 13 agents and a website-audit agent, built on FastAPI and React. The code is private.
+- **The Algorithm Lab:** the product behind our AI marketing service, now in beta. A multi-agent system (platform writers, a topic planner, an adversarial critic and a campaign planner) working from one shared company audit, plus a website-audit pipeline, on FastAPI and React with several models through OpenRouter. The code is private.
 
 ## Publications
 
@@ -18,11 +19,13 @@ ML engineer for multichannel audio. I build acoustic detection systems on microp
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [Earmark](https://github.com/arukh281/EarMark) | Personal voice isolation and barge-in gating for voice agents, in the browser (work in progress) | PyTorch, C++17, WebAssembly |
+| [Hypercharge](https://github.com/arukh281/Hypercharge-) | Wires a repo for Cursor and Claude Code agents: a code map, session memory and safety hooks | Python, tree-sitter, SQLite |
 | [SwiftShare](https://github.com/arukh281/SwiftShare) | Anonymous, encrypted file sharing; the basis of my ICDSA paper | FastAPI, AES-GCM, AWS S3 |
 | [KALI](https://github.com/arukh281/stock) | NSE paper-trading sandbox: 4 algorithm ledgers, HMM regime features, Kelly sizing | Python |
 | [Review Insights](https://github.com/arukh281/review-insights) | LLM review analytics with Google Business Profile sync | Next.js, PostgreSQL, Prisma |
-| [sensor-anomaly](https://github.com/arukh281/sensor-anomaly) | Real-time anomaly detection on NASA turbofan sensor data | scikit-learn, FastAPI |
+| [Sensor Anomaly](https://github.com/arukh281/sensor-anomaly) | Real-time anomaly detection on NASA turbofan sensor data | scikit-learn, FastAPI |
 
 ## Tools
 
-Python · PyTorch · CUDA · NVIDIA Jetson · FastAPI · PostgreSQL · TypeScript · React · Next.js · AWS
+Python · PyTorch · C++ · CUDA · NVIDIA Jetson · WebAssembly · FastAPI · PostgreSQL · TypeScript · React · Next.js · AWS
