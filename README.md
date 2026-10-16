@@ -57,7 +57,6 @@ Things I build because they're fun:
 
 - **[Air Drums](projects/virtual-drumkit.md):** play drums in the air with motion-sensor sticks
 - **Claude Counter:** a mic array that counts every time someone in the office says "Claude", in Hinglish
-- **Benchpoint:** a 20-test reaction, memory and typing benchmark you can run in the browser
 
 ## Publications
 
