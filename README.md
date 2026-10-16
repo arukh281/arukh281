@@ -16,18 +16,18 @@ Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Alg
 
 ## Selected work
 
-| | Project | What it is |
-| --- | --- | --- |
-| 🎙️ | [Earmark](https://github.com/arukh281/EarMark) | Personal voice isolation and barge-in gating for voice agents, in the browser |
-| 🗣️ | [desi-tts](projects/desi-tts.md) | An open TTS model fine-tuned on my own voice for Indian English, Hindi and Hinglish |
-| 🤖 | [Ortrovert LLM flow](projects/ortrovert-llm-flow.md) | Company audit → planner → 7 writer agents → adversarial critic, with per-workload model routing and cost tracking · *private* |
-| 🧭 | [Tour With Me CRM](projects/tour-with-me-crm.md) | Lead CRM for a 4x4 tour operator, live in production · *private, freelance* |
-| 🚚 | [Aerial Truck Detection](projects/aerial-truck-detection.md) | Finding and classifying tiny trucks in overhead satellite photos with YOLO11, tiling and error analysis · *private* |
-| 🥁 | [Air Drums](projects/virtual-drumkit.md) | Drumsticks with motion sensors, played in the air: sensing and 3D orientation (work in progress) |
-| ⚡ | [Hypercharge](https://github.com/arukh281/Hypercharge-) | Persistent memory, a code graph and safety hooks for Claude Code and Cursor agents |
-| 📈 | [Sensor Anomaly](https://github.com/arukh281/sensor-anomaly) | Anomaly detection on NASA turbofan sensor data, served with FastAPI |
-| ⭐ | [Review Insights](https://github.com/arukh281/review-insights) | LLM review analytics with Google Business Profile sync |
-| 🔐 | [SwiftShare](https://github.com/arukh281/SwiftShare) | Anonymous encrypted file sharing; the basis of my ICDSA paper |
+| Project | What it is |
+| --- | --- |
+| [Earmark](https://github.com/arukh281/EarMark) | Personal voice isolation and barge-in gating for voice agents, in the browser |
+| [desi-tts](projects/desi-tts.md) | An open TTS model fine-tuned on my own voice for Indian English, Hindi and Hinglish |
+| [Ortrovert LLM flow](projects/ortrovert-llm-flow.md) | Company audit → planner → 7 writer agents → adversarial critic, with per-workload model routing and cost tracking · *private* |
+| [Tour With Me CRM](projects/tour-with-me-crm.md) | Lead CRM for a 4x4 tour operator, live in production · *private, freelance* |
+| [Aerial Truck Detection](projects/aerial-truck-detection.md) | Finding and classifying tiny trucks in overhead satellite photos with YOLO11, tiling and error analysis · *private* |
+| [Air Drums](projects/virtual-drumkit.md) | Drumsticks with motion sensors, played in the air: sensing and 3D orientation (work in progress) |
+| [Hypercharge](https://github.com/arukh281/Hypercharge-) | Persistent memory, a code graph and safety hooks for Claude Code and Cursor agents |
+| [Sensor Anomaly](https://github.com/arukh281/sensor-anomaly) | Anomaly detection on NASA turbofan sensor data, served with FastAPI |
+| [Review Insights](https://github.com/arukh281/review-insights) | LLM review analytics with Google Business Profile sync |
+| [SwiftShare](https://github.com/arukh281/SwiftShare) | Anonymous encrypted file sharing; the basis of my ICDSA paper |
 
 Some repos are private (client or company work). Their pages explain what I built without the code.
 
