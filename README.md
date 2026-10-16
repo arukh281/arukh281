@@ -2,7 +2,7 @@
 
 **ML engineer: audio, edge AI and AI agents.** I train models, put them on real hardware, and build the products around them.
 
-Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Algorithm Lab) · freelance builds for brands
+Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Algorithm Lab) · websites and tools for brands
 
 [Portfolio](https://aradhya-khandelwal.vercel.app) · [Google Scholar](https://scholar.google.com/citations?user=He4BME4AAAAJ) · [LinkedIn](https://www.linkedin.com/in/aradhya-khandelwal281/) · arukhandelwal281@gmail.com
 
@@ -31,16 +31,31 @@ Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Alg
 
 Some repos are private (client or company work). Their pages explain what I built without the code.
 
-## Freelance
+## Client work
 
-I design and build websites and internal tools for brands, from the first sketch to a live domain:
+Websites and tools I've built for brands.
 
-- **[Tour With Me](projects/tour-with-me-crm.md):** lead CRM and installable sales app
-- **[Bairagi Films](https://bairagifilms.com):** production-house website
-- **[BAMA Group](https://bamagroup.in):** company site
-- **[Bloqcube](https://bloqcube.com):** custom WordPress theme
+**Handled end to end, from design to a live site:**
 
-Have a project in mind? [Get in touch](mailto:arukhandelwal281@gmail.com).
+- [Tour With Me CRM](projects/tour-with-me-crm.md): lead CRM and installable sales app for a 4x4 tour operator
+- [Bairagi Films](https://bairagifilms.com): production-house website
+- [Ortrovert](https://www.ortrovert.com): product site
+- [C.M. International](https://cminternational.vercel.app): industrial garment hardware and trims
+- [Ayati Group](https://ayati-six.vercel.app): marketing site for a Noida residential developer
+- [Rango's Bakes](https://rangos-bakes.vercel.app): bakery website
+
+**In progress:**
+
+- [BAMA Group](https://bamagroup.in): company site
+- [Bloqcube](https://bloqcube.com): custom WordPress theme
+
+## For fun
+
+Things I build because they're fun:
+
+- **[Air Drums](projects/virtual-drumkit.md):** play drums in the air with motion-sensor sticks
+- **Claude Counter:** a mic array that counts every time someone in the office says "Claude", in Hinglish
+- **Benchpoint:** a 20-test reaction, memory and typing benchmark you can run in the browser
 
 ## Publications
 
