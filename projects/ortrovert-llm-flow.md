@@ -11,22 +11,18 @@ Ortrovert audits a company's website, plans topics from what it finds, and write
 ## How it works
 
 ```mermaid
-flowchart LR
-    A["Company website"] --> B["Audit crawler"]
-    B --> C["Topic planner"]
-    D["Campaign Bible"] --> C
-    C --> E["7 platform writers"]
-    E --> F["Critic review"]
-    F --> G["Content for approval"]
-    subgraph Infra["Runs on"]
-        Q["Postgres job queue"]
-        R["OpenRouter model router"]
-        T["Token and cost ledger"]
-    end
-    Q -.-> B
-    Q -.-> E
-    R -.-> E
-    R -.-> T
+%%{init: {'flowchart': {'curve': 'basis', 'nodeSpacing': 30, 'rankSpacing': 36}}}%%
+flowchart TD
+    A(["Company website"]):::in --> B["Audit crawler"]:::step
+    B --> C["Topic planner"]:::ai
+    K(["Campaign Bible"]):::in --> C
+    C --> E["7 platform writers<br/>run in parallel"]:::ai
+    E --> F["Adversarial critic"]:::ai
+    F --> G(["Scored drafts for approval"]):::out
+    classDef in fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e,stroke-width:1.5px
+    classDef step fill:#f1f5f9,stroke:#64748b,color:#0f172a,stroke-width:1px
+    classDef ai fill:#ede9fe,stroke:#7c3aed,color:#3b0764,stroke-width:1.5px
+    classDef out fill:#dcfce7,stroke:#16a34a,color:#14532d,stroke-width:1.5px
 ```
 
 - **Audit and plan:** a crawler reads the site, then a topic agent plans what to write from the audit context.

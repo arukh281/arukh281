@@ -13,15 +13,18 @@ It turns text in Indian English, Hindi or Hinglish into speech in my voice. I fi
 ## How it works
 
 ```mermaid
-flowchart LR
-  A["Input text"] --> B["Normaliser"]
-  B --> C{"Hinglish?"}
-  C -- yes --> D["IndicXlit to Devanagari"]
-  C -- no --> E["XTTS-v2 (fine-tuned GPT)"]
-  D --> E
-  R["My reference clips"] --> E
-  E --> F["Speech audio"]
-  F --> G["Whisper CER + similarity"]
+%%{init: {'flowchart': {'curve': 'basis', 'nodeSpacing': 30, 'rankSpacing': 36}}}%%
+flowchart TD
+    A(["Text: English, Hindi or Hinglish"]):::in --> B["Normalise text"]:::step
+    B --> C["Transliterate Hinglish<br/>to Devanagari"]:::step
+    C --> D["XTTS-v2, fine-tuned on my voice"]:::ai
+    R(["My reference clips"]):::in --> D
+    D --> E(["Speech"]):::out
+    E --> F["Scored: Whisper CER<br/>and speaker similarity"]:::step
+    classDef in fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e,stroke-width:1.5px
+    classDef step fill:#f1f5f9,stroke:#64748b,color:#0f172a,stroke-width:1px
+    classDef ai fill:#ede9fe,stroke:#7c3aed,color:#3b0764,stroke-width:1.5px
+    classDef out fill:#dcfce7,stroke:#16a34a,color:#14532d,stroke-width:1.5px
 ```
 
 - The normaliser writes numbers, ₹, dates and acronyms out as words.

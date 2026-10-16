@@ -13,15 +13,18 @@ Leads from the operator's ads land on a form we host, not inside Meta. Each lead
 ## How it works
 
 ```mermaid
-flowchart LR
-    A["Meta ad"] --> B["Hosted lead form"]
-    B --> C["FastAPI backend"]
-    C --> D["Spam and validation checks"]
-    D --> E[("PostgreSQL")]
-    E --> F["Assign to salesperson"]
-    F --> G["Email alert to team"]
-    E --> H["CRM app (PWA)"]
-    H --> I["Sales team follows up"]
+%%{init: {'flowchart': {'curve': 'basis', 'nodeSpacing': 30, 'rankSpacing': 36}}}%%
+flowchart TD
+    A(["Meta ad"]):::in --> B["Hosted lead form"]:::step
+    B --> C["FastAPI: spam and validation checks"]:::step
+    C --> D[("PostgreSQL")]:::step
+    D --> E["Auto-assign to a salesperson"]:::step
+    E --> F["Email alert"]:::step
+    E --> G(["Sales app on the phone (PWA)"]):::out
+    classDef in fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e,stroke-width:1.5px
+    classDef step fill:#f1f5f9,stroke:#64748b,color:#0f172a,stroke-width:1px
+    classDef ai fill:#ede9fe,stroke:#7c3aed,color:#3b0764,stroke-width:1.5px
+    classDef out fill:#dcfce7,stroke:#16a34a,color:#14532d,stroke-width:1.5px
 ```
 
 - The ad links to the hosted form with a campaign tag in the URL, so every lead keeps its source.

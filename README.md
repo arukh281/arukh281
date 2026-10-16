@@ -12,6 +12,7 @@ Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Alg
 
 - **Audio ML at SSS Defence:** acoustic drone detection on a multi-microphone array, from synthetic data and sim-to-real training to CUDA signal processing and real-time deployment on NVIDIA Jetson. *Code is private.*
 - **[Air Drums](projects/virtual-drumkit.md), in progress:** a DIY air drum kit: each stick carries a motion sensor on an ESP32-C3 and streams to a browser dashboard that tracks its 3D orientation live. Turning hits into drum sounds comes next.
+- **[Earmark](https://github.com/arukh281/EarMark), built in public:** keeps only your voice so a voice agent isn't interrupted by a TV, a colleague or its own echo. A small causal model, 10 ms steps, running live in the browser.
 - **[Ortrovert](projects/ortrovert-llm-flow.md):** the multi-agent LLM platform behind our AI marketing service. *Private repo; the page shows how the LLM flow works.*
 
 ## Selected work
@@ -19,7 +20,7 @@ Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Alg
 | Project | What it is |
 | --- | --- |
 | [Earmark](https://github.com/arukh281/EarMark) | Personal voice isolation and barge-in gating for voice agents, in the browser |
-| [desi-tts](projects/desi-tts.md) | An open TTS model fine-tuned on my own voice for Indian English, Hindi and Hinglish |
+| [desi-tts](https://github.com/arukh281/desi-tts) | An open TTS model fine-tuned on my own voice for Indian English, Hindi and Hinglish |
 | [Ortrovert LLM flow](projects/ortrovert-llm-flow.md) | Company audit → planner → 7 writer agents → adversarial critic, with per-workload model routing and cost tracking · *private* |
 | [Tour With Me CRM](projects/tour-with-me-crm.md) | Lead CRM for a 4x4 tour operator, live in production · *private, freelance* |
 | [Aerial Truck Detection](projects/aerial-truck-detection.md) | Finding and classifying tiny trucks in overhead satellite photos with YOLO11, tiling and error analysis · *private* |
@@ -43,6 +44,7 @@ Websites and tools I've built for brands.
 - [C.M. International](https://cminternational.vercel.app): industrial garment hardware and trims
 - [Ayati Group](https://ayati-six.vercel.app): marketing site for a Noida residential developer
 - [Rango's Bakes](https://rangos-bakes.vercel.app): bakery website
+- [Vendor Ledger](https://github.com/arukh281/ledger): a tally app I built for my father's business, with large text, high contrast and minimal steps
 
 **In progress:**
 

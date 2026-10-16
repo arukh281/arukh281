@@ -11,16 +11,17 @@ A DIY air drum kit. Each stick carries an IMU and a magnetometer on an ESP32-C3.
 ## How it works
 
 ```mermaid
-flowchart LR
-  A["IMU + BMM150 on stick"] --> B["ESP32-C3 (400 Hz)"]
-  B --> C["USB serial"]
-  C --> D["Web Serial dashboard"]
-  D --> F["Mag ellipsoid calibration"]
-  D --> G["MEKF (gyro + gravity + north)"]
-  F --> G
-  G --> H["3D stick view"]
-  D --> E["One-Euro smoothing"]
-  E --> I["Live value plots"]
+%%{init: {'flowchart': {'curve': 'basis', 'nodeSpacing': 30, 'rankSpacing': 36}}}%%
+flowchart TD
+    A(["Motion sensors on the stick"]):::in --> B["ESP32-C3 streams over USB"]:::step
+    B --> C["Browser dashboard (Web Serial)"]:::step
+    C --> D["Magnetometer calibration"]:::step
+    D --> E["Orientation filter:<br/>gyro + gravity + north"]:::ai
+    E --> F(["Live 3D stick"]):::out
+    classDef in fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e,stroke-width:1.5px
+    classDef step fill:#f1f5f9,stroke:#64748b,color:#0f172a,stroke-width:1px
+    classDef ai fill:#ede9fe,stroke:#7c3aed,color:#3b0764,stroke-width:1.5px
+    classDef out fill:#dcfce7,stroke:#16a34a,color:#14532d,stroke-width:1.5px
 ```
 
 - The firmware reads accel and gyro at 400 Hz (±16 g, ±1000 dps) and the magnetometer at 30 Hz, each line tagged with a board timestamp (latest sketch; the board still runs an older 50 Hz build).
