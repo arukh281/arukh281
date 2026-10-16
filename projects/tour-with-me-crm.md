@@ -42,6 +42,15 @@ flowchart TD
 - Meta lead ingestion and a WhatsApp notifier, both kept behind config flags.
 - A backend test suite covering auth, forms, scoping, migrations and security hardening.
 
+## Production notes
+
+Live since September 2026 with real leads, shipped as tagged releases with a rollback plan. Fixes that came from real use:
+
+- **Data scoping:** closed gaps where a salesperson could see leads outside their own.
+- **Security headers:** the public form's Content Security Policy wasn't reaching the browser; fixed and tested.
+- **Mobile:** the app no longer waits on the login check before showing, and the form keeps the field you're typing in above the phone keyboard.
+- **Stale screens:** a screen left open now catches up when you come back to it.
+
 ## Stack
 
 Python · FastAPI · SQLAlchemy · Alembic · PostgreSQL · Celery · Redis · Next.js · TypeScript · Tailwind

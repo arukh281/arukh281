@@ -53,6 +53,26 @@ flowchart TD
 5. **Critique.** A critic on a different model from the writers scores each draft, flags generic openers, unexplained jargon and unsourced claims, and keeps a rejection history.
 6. **Approve.** Drafts arrive in the web app, scored, for a person to review.
 
+## Production notes
+
+**What broke in real use, and the fix**
+
+- **A model ID that existed but had no price** silently broke two features in production. Now every model is checked at startup: it must exist on OpenRouter and have a price, or the app refuses to boot.
+- **Sites served our crawler an empty page.** JavaScript-heavy and anti-bot sites gave a bot an empty page, so the agents wrote from thin context without anyone noticing. The fix: a real browser user agent, plus a headless-browser fallback.
+- **The deploy image had no browser**, so the visual audit failed on the server. Chromium is now installed in the Docker image, with sandbox settings for Linux.
+- **Long LLM runs and web requests competed.** They now run as Postgres-backed jobs, with heartbeats and requeueing of stuck jobs.
+
+**How the LLM calls hold up**
+
+| Concern | What the code does |
+| --- | --- |
+| Failures | Timeouts on every call; retries with exponential backoff on rate limits (429) and provider errors (5xx) |
+| Model choice | One model per task; no silent swap to a different model, so output quality stays predictable |
+| Output control | Structured JSON outputs, validated by the planner, critic and campaign agents before use |
+| Bad output | A critic on a different model flags generic openers, unexplained jargon and unsourced statistics |
+| Cost | Token caps per call, prompt caching on long shared context, and every call's tokens and cost logged |
+| Quality | Critic scores on every draft, plus blind "would I publish this?" reviews of real output |
+
 ## Keeping it reliable
 
 - **One model per task:** the provider layer routes each kind of work to its own model through OpenRouter, and checks at startup that every model exists and has a price.
