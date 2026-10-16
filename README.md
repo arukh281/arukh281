@@ -2,7 +2,7 @@
 
 **ML engineer: audio, edge AI and AI agents.** I train models, put them on real hardware, and build the products around them.
 
-Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Algorithm Lab) · websites and tools for brands
+Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Algorithm Lab)
 
 [Portfolio](https://aradhya-khandelwal.vercel.app) · [Google Scholar](https://scholar.google.com/citations?user=He4BME4AAAAJ) · [LinkedIn](https://www.linkedin.com/in/aradhya-khandelwal281/) · arukhandelwal281@gmail.com
 
@@ -22,7 +22,7 @@ Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Alg
 | [Earmark](https://github.com/arukh281/EarMark) | Personal voice isolation and barge-in gating for voice agents, in the browser |
 | [desi-tts](https://github.com/arukh281/desi-tts) | An open TTS model fine-tuned on my own voice for Indian English, Hindi and Hinglish |
 | [Ortrovert LLM flow](projects/ortrovert-llm-flow.md) | Company audit → planner → 7 writer agents → adversarial critic, with per-workload model routing and cost tracking · *private* |
-| [Tour With Me CRM](projects/tour-with-me-crm.md) | Lead CRM for a 4x4 tour operator, live in production · *private, freelance* |
+| [Tour With Me CRM](projects/tour-with-me-crm.md) | Lead CRM for a 4x4 tour operator, live in production · *private* |
 | [Aerial Truck Detection](projects/aerial-truck-detection.md) | Finding and classifying tiny trucks in overhead satellite photos with YOLO11, tiling and error analysis · *private* |
 | [Air Drums](projects/virtual-drumkit.md) | Drumsticks with motion sensors, played in the air: sensing and 3D orientation (work in progress) |
 | [Hypercharge](https://github.com/arukh281/Hypercharge-) | Persistent memory, a code graph and safety hooks for Claude Code and Cursor agents |
@@ -30,11 +30,11 @@ Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Alg
 | [Review Insights](https://github.com/arukh281/review-insights) | LLM review analytics with Google Business Profile sync |
 | [SwiftShare](https://github.com/arukh281/SwiftShare) | Anonymous encrypted file sharing; the basis of my ICDSA paper |
 
-Some repos are private (client or company work). Their pages explain what I built without the code.
+Some repos are private. Their pages explain what I built without the code.
 
-## Client work
+## For friends and family
 
-Websites and tools I've built for brands.
+Websites and tools I've built for people I know.
 
 **Handled end to end, from design to a live site:**
 
