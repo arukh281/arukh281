@@ -11,7 +11,7 @@ Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Alg
 ## Now
 
 - **Audio ML at SSS Defence:** acoustic drone detection on a multi-microphone array, from synthetic data and sim-to-real training to CUDA signal processing and real-time deployment on NVIDIA Jetson. *Code is private.*
-- **[Earmark](https://github.com/arukh281/EarMark), built in public:** keeps only your voice so a voice agent isn't interrupted by a TV, a colleague or its own echo. A small causal model, 10 ms steps, running live in the browser.
+- **[Air Drums](projects/virtual-drumkit.md), in progress:** a DIY air drum kit: each stick carries a motion sensor on an ESP32-C3 and streams to a browser dashboard that tracks its 3D orientation live. Turning hits into drum sounds comes next.
 - **[Ortrovert](projects/ortrovert-llm-flow.md):** the multi-agent LLM platform behind our AI marketing service. *Private repo; the page shows how the LLM flow works.*
 
 ## Selected work
