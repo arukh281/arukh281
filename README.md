@@ -1,69 +1,71 @@
-# Aradhya Khandelwal
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Aradhya Khandelwal. ML engineer: I train models, put them on real hardware, and build the products around them." src="assets/header-light.svg" width="100%">
+</picture>
 
-**ML engineer: audio, edge AI and AI agents.** I train models, put them on real hardware, and build the products around them.
+<p>
+  <a href="https://aradhya-khandelwal.vercel.app">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://scholar.google.com/citations?user=He4BME4AAAAJ">Google Scholar</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/aradhya-khandelwal281/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:arukhandelwal281@gmail.com">arukhandelwal281@gmail.com</a>
+</p>
 
-Deep Learning Trainee at **SSS Defence** · co-founder of **Ortrovert** (The Algorithm Lab)
+### Now
 
-[Portfolio](https://aradhya-khandelwal.vercel.app) · [Google Scholar](https://scholar.google.com/citations?user=He4BME4AAAAJ) · [LinkedIn](https://www.linkedin.com/in/aradhya-khandelwal281/) · arukhandelwal281@gmail.com
+**Deep Learning Trainee, SSS Defence.** Acoustic drone detection on a multi-microphone array: synthetic data, sim-to-real training, CUDA signal processing and real-time deployment on NVIDIA Jetson. <sub>Code is private.</sub>
 
----
+**Co-founder, [Ortrovert](projects/ortrovert-llm-flow.md).** The multi-agent LLM platform behind our AI marketing service, in production with paying clients. <sub>Private repo; the page shows the architecture.</sub>
 
-## Now
+**Building [Air Drums](projects/virtual-drumkit.md).** Drumsticks with motion sensors, played in the air. Orientation tracking works; turning hits into drum sounds is next.
 
-- **Audio ML at SSS Defence:** acoustic drone detection on a multi-microphone array, from synthetic data and sim-to-real training to CUDA signal processing and real-time deployment on NVIDIA Jetson. *Code is private.*
-- **[Air Drums](projects/virtual-drumkit.md), in progress:** a DIY air drum kit: each stick carries a motion sensor on an ESP32-C3 and streams to a browser dashboard that tracks its 3D orientation live. Turning hits into drum sounds comes next.
-- **[Earmark](https://github.com/arukh281/EarMark), built in public:** keeps only your voice so a voice agent isn't interrupted by a TV, a colleague or its own echo. A small causal model, 10 ms steps, running live in the browser.
-- **[Ortrovert](projects/ortrovert-llm-flow.md):** the multi-agent LLM platform behind our AI marketing service. *Private repo; the page shows how the LLM flow works.*
+<br>
 
-## Selected work
+### Work
 
-| Project | What it is |
-| --- | --- |
-| [Earmark](https://github.com/arukh281/EarMark) | Personal voice isolation and barge-in gating for voice agents, in the browser |
-| [desi-tts](https://github.com/arukh281/desi-tts) | An open TTS model fine-tuned on my own voice for Indian English, Hindi and Hinglish |
-| [Ortrovert LLM flow](projects/ortrovert-llm-flow.md) | Company audit → planner → 7 writer agents → adversarial critic, with per-workload model routing and cost tracking · *private* |
-| [Tour With Me CRM](projects/tour-with-me-crm.md) | Lead CRM for a 4x4 tour operator, live in production · *private* |
-| [Aerial Truck Detection](projects/aerial-truck-detection.md) | Finding and classifying tiny trucks in overhead satellite photos with YOLO11, tiling and error analysis · *private* |
-| [Air Drums](projects/virtual-drumkit.md) | Drumsticks with motion sensors, played in the air: sensing and 3D orientation (work in progress) |
-| [Hypercharge](https://github.com/arukh281/Hypercharge-) | Persistent memory, a code graph and safety hooks for Claude Code and Cursor agents |
-| [Sensor Anomaly](https://github.com/arukh281/sensor-anomaly) | Anomaly detection on NASA turbofan sensor data, served with FastAPI |
-| [Review Insights](https://github.com/arukh281/review-insights) | LLM review analytics with Google Business Profile sync |
-| [SwiftShare](https://github.com/arukh281/SwiftShare) | Anonymous encrypted file sharing; the basis of my ICDSA paper |
+**Audio and speech**
+- **[Earmark](https://github.com/arukh281/EarMark)**: keeps only your voice, so a voice agent isn't cut off by a TV or its own echo. Runs live in the browser.
+- **[desi-tts](https://github.com/arukh281/desi-tts)**: an open TTS model fine-tuned on my voice to speak Indian English, Hindi and Hinglish.
 
-Some repos are private. Their pages explain what I built without the code.
+**LLM agents**
+- **[Ortrovert](projects/ortrovert-llm-flow.md)**: company audit, then a planner, 7 writer agents and a critic, with cost tracking per call. <sub>private</sub>
+- **[Hypercharge](https://github.com/arukh281/Hypercharge-)**: persistent memory, a code graph and safety hooks for Claude Code and Cursor agents.
 
-## For friends and family
+**Vision and edge**
+- **[Aerial Truck Detection](projects/aerial-truck-detection.md)**: finding tiny trucks in overhead photos with YOLO11, tiling and error analysis. <sub>private</sub>
+- **[Sensor Anomaly](https://github.com/arukh281/sensor-anomaly)**: anomaly detection on NASA turbofan sensors, served with FastAPI.
 
-Websites and tools I've built for people I know.
+**Products**
+- **[Tour With Me CRM](projects/tour-with-me-crm.md)**: lead CRM and phone app for a 4x4 tour operator, live with real leads. <sub>private</sub>
+- **[Review Insights](https://github.com/arukh281/review-insights)**: LLM review analytics with Google Business Profile sync.
+- **[SwiftShare](https://github.com/arukh281/SwiftShare)**: anonymous encrypted file sharing; the basis of my ICDSA paper.
 
-**Handled end to end, from design to a live site:**
+<br>
 
-- [Tour With Me CRM](projects/tour-with-me-crm.md): lead CRM and installable sales app for a 4x4 tour operator
-- [Bairagi Films](https://bairagifilms.com): production-house website
-- [Ortrovert](https://www.ortrovert.com): product site
-- [C.M. International](https://cminternational.vercel.app): industrial garment hardware and trims
-- [Ayati Group](https://ayati-six.vercel.app): marketing site for a Noida residential developer
-- [Rango's Bakes](https://rangos-bakes.vercel.app): bakery website
-- [Vendor Ledger](https://github.com/arukh281/ledger): a tally app I built for my father's business, with large text, high contrast and minimal steps
+### Built for friends and family
 
-**In progress:**
+[Bairagi Films](https://bairagifilms.com) · [Ortrovert](https://www.ortrovert.com) · [C.M. International](https://cminternational.vercel.app) · [Ayati Group](https://ayati-six.vercel.app) · [Rango's Bakes](https://rangos-bakes.vercel.app) · [Vendor Ledger](https://github.com/arukh281/ledger), a tally app for my father's business
 
-- [BAMA Group](https://bamagroup.in): company site
-- [Bloqcube](https://bloqcube.com): custom WordPress theme
+<sub>In progress: [BAMA Group](https://bamagroup.in) · [Bloqcube](https://bloqcube.com)</sub>
 
-## For fun
+<br>
 
-Things I build because they're fun:
+### For fun
 
-- **[Air Drums](projects/virtual-drumkit.md):** play drums in the air with motion-sensor sticks
-- **Claude Counter:** a mic array that counts every time someone in the office says "Claude", in Hinglish
+**[Air Drums](projects/virtual-drumkit.md)**, drums you play in the air · **Claude Counter**, a mic array that counts every time the office says "Claude", in Hinglish
 
-## Publications
+<br>
 
-- **Unsupervised Approach for Classifying Volume Scattering for Surface Roughness and Potential Water-Ice Deposits.** IEEE InGARSS 2025. [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11583820/)
-- **Beyond Nonce Uniqueness: A Cryptographic Evaluation of AES-GCM in Secure Anonymous File Sharing Systems.** ICDSA 2025, first author. [Springer](https://doi.org/10.1007/978-3-032-15407-1_26)
-- **Indian patent application** 202511066102 A (published Jul 2025): secure anonymous file sharing.
+### Publications
 
-## Tools
+**Unsupervised Approach for Classifying Volume Scattering for Surface Roughness and Potential Water-Ice Deposits**<br>
+<sub>IEEE InGARSS 2025 · [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11583820/)</sub>
 
-`Python` `PyTorch` `CUDA` `NVIDIA Jetson` `C++` `WebAssembly` `FastAPI` `PostgreSQL` `LLM agents` `TypeScript` `React` `Next.js` `Docker` `AWS`
+**Beyond Nonce Uniqueness: A Cryptographic Evaluation of AES-GCM in Secure Anonymous File Sharing Systems**<br>
+<sub>ICDSA 2025, first author · [Springer](https://doi.org/10.1007/978-3-032-15407-1_26)</sub>
+
+**Secure anonymous file sharing**<br>
+<sub>Indian patent application 202511066102 A, published Jul 2025</sub>
+
+<br>
+
+<sub>Python · PyTorch · CUDA · NVIDIA Jetson · C++ · WebAssembly · FastAPI · PostgreSQL · LLM agents · TypeScript · React · Next.js · Docker · AWS</sub>

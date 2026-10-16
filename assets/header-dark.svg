@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" rx="14" fill="#0d1117"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="92" font-size="15" letter-spacing="3.5" fill="#3fb950" font-weight="600">ML ENGINEER · BANGALORE</text>
+    <text x="70" y="160" font-size="58" font-weight="700" fill="#f0f6fc" letter-spacing="-1.2">Aradhya Khandelwal</text>
+    <text x="72" y="206" font-size="21" fill="#9198a1">I train models, put them on real hardware, and build the products around them.</text>
+    <line x1="72" y1="240" x2="1128" y2="240" stroke="#30363d" stroke-width="1"/>
+    <text x="72" y="270" font-size="15" letter-spacing="2" fill="#6e7681">AUDIO ML  ·  EDGE AI  ·  LLM AGENTS  ·  PRODUCTS</text>
+    <text x="1128" y="270" font-size="15" text-anchor="end" fill="#6e7681">SSS Defence · Ortrovert</text>
+  </g>
+  <g transform="translate(980,96)" fill="none" stroke="#3fb950" stroke-width="2.4" stroke-linecap="round">
+    <path d="M0 40 v-10 M14 40 v-26 M28 40 v-42 M42 40 v-30 M56 40 v-52 M70 40 v-24 M84 40 v-36 M98 40 v-14 M112 40 v-28 M126 40 v-8" opacity="0.9"/>
+  </g>
+</svg>
